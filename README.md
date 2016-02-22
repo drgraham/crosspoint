@@ -6,7 +6,7 @@ Cross Point Church's [live streams](http://www.crosspoint.tv/internet/watch-live
 Requirements
 ------------
 
-You will need [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/), [urllib3](https://urllib3.readthedocs.org/en/latest/), [PyGTK](http://www.pygtk.org/) (for error dialogs), and, of course, [vlc](http://www.videolan.org/vlc/index.html).
+You will need [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/), [urllib3](https://urllib3.readthedocs.org/en/latest/), [PyGTK](http://www.pygtk.org/) (for error dialogs), [ImageMagick](http://www.imagemagick.org/script/index.php) (to install), and, of course, [vlc](http://www.videolan.org/vlc/index.html).
 
 Install
 -------
