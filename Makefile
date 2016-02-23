@@ -12,6 +12,6 @@ icon:
 desktop:
 	mkdir -p $(HOME)/.local/share/applications
 	cp crosspoint.desktop $(HOME)/.local/share/applications/
-	printf "Exec=$(HOME)/.local/bin/crosspoint" >> $(HOME)/.local/share/applications/crosspoint.desktop
-	printf "Icon=$(HOME)/.local/share/icons/crosspoint.png" >> $(HOME)/.local/share/applications/crosspoint.desktop
+	printf "Exec=$(HOME)/.local/bin/crosspoint\n" >> $(HOME)/.local/share/applications/crosspoint.desktop
+	printf "Icon=$(HOME)/.local/share/icons/crosspoint.png\n" >> $(HOME)/.local/share/applications/crosspoint.desktop
 	xdg-desktop-menu forceupdate
