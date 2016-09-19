@@ -84,4 +84,4 @@ if __name__ == "__main__":
     m3u8 = getstream(http, api, uuid)
 
     # and finally play the dang thing
-    subprocess.Popen(["/usr/bin/vlc", m3u8])
+    subprocess.Popen(["/usr/bin/mpv", m3u8])
