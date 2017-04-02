@@ -7,7 +7,7 @@ script:
 icon:
 	mkdir -p $(HOME)/.local/share/icons
 	wget -nc -P /tmp http://crosspoint.tv/images/main/crosspoint-logo.svg
-	convert +antialias -background none -density 105.5 -crop 256x256+430+0 /tmp/crosspoint-logo.svg $(HOME)/.local/share/icons/crosspoint.png
+	convert +antialias -background none -density 112.5 -crop 256x256+430+0 /tmp/crosspoint-logo.svg $(HOME)/.local/share/icons/crosspoint.png
 
 desktop:
 	mkdir -p $(HOME)/.local/share/applications
